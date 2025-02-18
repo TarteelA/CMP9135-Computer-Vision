@@ -7,7 +7,7 @@ function Output = LookForBalls(Picture)
     Picture = imclose(Picture, SE);
     Picture = imfill(Picture, 'holes');
 
-    %% Make Shapes Convex to Delete of Holes in Balls
+    %% Make Shapes Convex to Delete Holes in Balls
     ConvComp = bwconncomp(Picture);
     State = regionprops(ConvComp, 'ConvexHull');
     Picture_Convex = false(size(Picture));
