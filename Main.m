@@ -10,8 +10,8 @@ for I = 1:length(Pictures)
     %Read Picture
     Picture = imread(Pictures(I).folder + "/" + Pictures(I).name);
 
-    %% Threshold Whole Picture and Look for Balls (DiceScore = 0.90)
-    %Change Picture to Black and White using Otsu Thresholding Just use Red channel because it works great for Balls
+    %% Threshold Whole Picture and Look for Balls
+    %Change Picture to Black and White using Otsu Thresholding
     MaskOtsu = imbinarize(Picture(:, :, 1), 'adaptive', 'Sensitivity', 0.35);
 
     %Look For Balls in Picture
