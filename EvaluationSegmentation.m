@@ -1,5 +1,5 @@
 %Author: Tarteel Alkaraan (25847208)
-%Last Updated: 16/02/2025
+%Last Updated: 28/02/2025
 %This is an edited version of [3]
 PathGroundTruth = 'BallFrames/GroundTruth/';
 PathMask = 'BallFrames/Mask/';
