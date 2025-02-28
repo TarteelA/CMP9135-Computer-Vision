@@ -1,5 +1,5 @@
 %Author: Tarteel Alkaraan (25847208)
-%Last Updated: 16/02/2025
+%Last Updated: 28/02/2025
 %This is an edited version of [3]
 function DisplayPictures(Pictures, DiceScore, Name)
     PathGroundTruth = 'BallFrames/GroundTruth/';
